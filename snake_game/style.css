@@ -1,0 +1,54 @@
+:root{
+    --main-color: /* #ffbfc5 */ #9fe7f5;
+    --main-color-light:/*  #fee5e0 */ #429ebd;
+    --accent-color:#f6bd60;
+    --accent-color-light:#f7ede2;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+    background-color: var(--accent-color);
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+h1{
+    font-size: 3rem;
+    padding: 20px;
+}
+
+.btn-primary{
+    font-size: 18px;
+    padding: 1em;
+    margin: 1em;
+    margin-bottom: 3em;
+    border: 1px solid var(--accent-color);
+    border-radius: 2em;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color: var(--accent-color);
+    color: var(--accent-color-light);
+   transition: 0.2s;
+}
+.snake-game{
+    width: 90%;
+    height: 95.5%;
+    margin: auto;
+    padding-bottom: 2em;
+    text-align: center;
+    background-color: red;
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--accent-color-light);
+}
+canvas{
+    border: solid black 2px;
+    /* box-shadow: black 0px 10px 10px; */
+
+}
